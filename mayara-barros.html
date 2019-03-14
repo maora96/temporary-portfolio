@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="mayara-style.css">
+   <link href="https://fonts.googleapis.com/css?family=Cardo:400,400i,700|Work+Sans:400,600,700" rel="stylesheet">
+</head>
+<body>
+
+<!-- HEADER-->
+<header>
+    <nav>
+        <div class="menu-desktop-right">
+    
+           <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>            </div>
+       <h1><a href="">
+           Mayara Barros</a></h1> 
+       <div class="menu-desktop-right">
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </div>
+       <img src="/images2/menu.png" alt="menu" id="hamburguer">
+    </nav>
+    <div class="menu-mobile none" id="nav">
+                  <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+
+
+<!-- BANNER -->
+
+<div class="banner">
+        <div class="container">
+            <div class="banner-img">
+               
+                <img src="images2/banner.png" alt="">
+
+                  
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- NEWSLETTER -->
+
+<section class="newsletter">
+    <div class="container">
+        <h1>newsletter</h1>
+        <p>Devaneios sobre RPG, fantasia e a arte de escrever.</p>
+        <form style="padding:3px;text-align:center;" action="https://tinyletter.com/NaiveHeart" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/NaiveHeart', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p style="margin-bottom:0;"><label for="tlemail">Enter your email address</label></p><p><input type="text" style="width:300px;margin-top:5px; margin-bottom:5px;" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input style="margin-top:0;" type="submit" value="Subscribe" /></form>
+        
+    </div>
+</section>
+
+
+<!-- BLOG SNIPPET -->
+
+<section class="blog-snippet">
+    <h1>blog</h1>
+        <div class="blog-post">
+        <div class="blog-post-image">
+                <img src="/images2/blog-image.png" alt="">
+        </div>
+        <div class="container">
+            <span>00.00.00 in category by author</span>
+            <h2><a href="<?php the_permalink(); ?>">  
+                post title</h2></a> 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore totam saepe, libero ratione amet fugiat assumenda voluptate, temporibus numquam molestias, aperiam ipsum officiis consectetur laboriosam neque sed. Magni iure exercitationem neque perspiciatis aperiam iusto nobis totam iste veniam obcaecati eaque possimus distinctio, quo eos laborum voluptatum quod debitis recusandae hic voluptatibus eum aut. Laborum eos totam, fugiat quisquam repudiandae consectetur beatae temporibus laudantium, aliquid perspiciatis corrupti perferendis modi magnam numquam! Alias sequi aliquid optio itaque libero laudantium id asperiores dolores facilis numquam, dignissimos vitae, non maiores ratione quibusdam doloribus cumque quis modi dolorem, quas in recusandae est minus enim. Repudiandae.
+            <a href="<?php the_permalink(); ?>" class="readmore">Read more</a>
+        </div>    
+        
+    </div>
+
+            <hr>
+
+            <div class="morepostsdiv">
+                <a href="<?php echo site_url('/blog'); ?>" class="moreposts">more posts</a>
+            </div>
+            
+
+</section>
+
+ <!-- FOOTER -->
+
+ <footer>
+        <h2>mayara barros @ 2019 | <a href="http://maoradesign.com.br/">maora</a></h2>
+    </footer>
+    
+    <?php wp_footer(); ?>
+    <script src="main.js"></script>
+    </body>
+    </html>

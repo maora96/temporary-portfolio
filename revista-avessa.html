@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="revista-style.css">
+    <link rel="stylesheet" href="https//fonts.googleapis.com/css?family=EB+Garamond:400,700|Zilla+Slab">
+
+
+    <title>Avessa</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <img src="images/Menu.png" alt="" id="hamburguer">
+            <a href="<?php echo site_url(); ?>">
+                
+                <img src="images/avessa2.png">
+                
+            </a>
+            <div class="menu-desktop-true">
+
+ <ul>
+                    <li><a href="<?php echo site_url('/sobre'); ?>">Sobre</a></li>
+                    <li><a href="<?php echo site_url('/equipe'); ?>">Equipe</a></li>
+                    <li><a href="<?php echo site_url('/edicoes'); ?>">Edições</a></li>
+                    <li><a href="<?php echo site_url('/chamadas'); ?>">Chamadas</a></li>
+                    <li><a href="<?php echo site_url('/servicos'); ?>">Serviços</a></li>
+                    <li><a href="<?php echo site_url('/sobre'); ?>">Blog</a></li>
+                    <li><a href="<?php echo site_url('/faq'); ?>">FAQ</a></li>
+                    <li><a href="<?php echo site_url('/parceiros'); ?>">Parceiros</a></li>
+                    <li><a href="<?php echo site_url('/contato'); ?>">Contato</a></li>
+                </ul>
+                
+            </div>
+            <img src="/images/Search.png" alt="" id="search">
+        </nav>
+        <div class="menu-desktop none" id="nav">
+        <ul>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="equipe.html">Equipe</a></li>
+                    <li><a href="edicoes.html">Edições</a></li>
+                    <li><a href="edicoes.html">Chamadas</a></li>
+                    <li><a href="sobre.html">Serviços</a></li>
+                    <li><a href="edicoes.html">Blog</a></li>
+                    <li><a href="sobre.html">FAQ</a></li>
+                    <li><a href="equipe.html">Parceiros</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+
+        <div class="search-bar none" id="bar">
+         
+            
+        </div>
+
+
+    <div class="slider">
+    <img src="images/menu-slider.png" alt="">
+    </div>
+</div>
+</header>
+
+<!-- ÚLTIMAS EDIÇÕES -->
+<section class="ultimas-edicoes">
+    <h1>Últimas Edições</h1>
+    <div class="edicoes-box">
+
+
+        <div class="edicoes-post">
+            <div class="tint">
+            <img src="images/edicoes.jpeg" alt="">
+            </div>
+            <h2><a href="<?php the_permalink() ?>">
+                    title</a></h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet ratione illum sint autem, repellat porro! Cumque, harum?
+            </p>
+            <a href="<?php the_permalink(); ?>" class="edicoes-link">read more</a>
+        </div>
+
+
+        <div class="edicoes-post">
+                <div class="tint">
+                <img src="images/edicoes.jpeg" alt="">
+                </div>
+                <h2><a href="<?php the_permalink() ?>">
+                        title</a></h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet ratione illum sint autem, repellat porro! Cumque, harum?
+                </p>
+                <a href="<?php the_permalink(); ?>" class="edicoes-link">read more</a>
+            </div>
+
+
+            <div class="edicoes-post">
+                    <div class="tint">
+                    <img src="images/edicoes.jpeg" alt="">
+                    </div>
+                    <h2><a href="<?php the_permalink() ?>">
+                            title</a></h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet ratione illum sint autem, repellat porro! Cumque, harum?
+                    </p>
+                    <a href="<?php the_permalink(); ?>" class="edicoes-link">read more</a>
+                </div>
+
+    </div>
+    
+</section>
+
+<!-- POSTS -->
+<div class="posts-menu">
+    <div class="menu-container">
+        <a href="<?php echo home_url() ?>/category/noticias">Notícias</a> |
+        <a href="<?php echo home_url() ?>/category/resenhas">Resenhas</a> |
+        <a href="<?php echo home_url() ?>/category/eventos">Eventos</a> |
+        <a href="<?php echo home_url() ?>/category/editais">Editais</a>
+    </div>
+</div>
+
+<section class="content">
+
+
+    <section class="posts">
+
+        <div class="posts-box">
+
+            <div class="posts-post">
+                <div class="post-img-box">
+                <img src="images/post-pic.png" alt="">
+                            </div>
+                <div class="post-text">
+                    <h3><a href="<?php the_permalink();?>">title</a></h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quibusdam voluptate praesentium veniam deleniti voluptatum quam explicabo placeat cupiditate nemo quae voluptatibus et, ratione quis beatae possimus saepe magni, sunt tenetur ipsam blanditiis doloremque nobis quas.  
+                    <a href="<?php the_permalink();?>" class="read-more">read more</a>
+                </div>
+            </div>
+
+
+            <div class="posts-post">
+                    <div class="post-img-box">
+                    <img src="images/post-pic.png" alt="">
+                                </div>
+                    <div class="post-text">
+                        <h3><a href="<?php the_permalink();?>">title</a></h3>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quibusdam voluptate praesentium veniam deleniti voluptatum quam explicabo placeat cupiditate nemo quae voluptatibus et, ratione quis beatae possimus saepe magni, sunt tenetur ipsam blanditiis doloremque nobis quas.  
+                        <a href="<?php the_permalink();?>" class="read-more">read more</a>
+                    </div>
+                </div>
+
+
+                <div class="posts-post">
+                        <div class="post-img-box">
+                        <img src="images/post-pic.png" alt="">
+                                    </div>
+                        <div class="post-text">
+                            <h3><a href="<?php the_permalink();?>">title</a></h3>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quibusdam voluptate praesentium veniam deleniti voluptatum quam explicabo placeat cupiditate nemo quae voluptatibus et, ratione quis beatae possimus saepe magni, sunt tenetur ipsam blanditiis doloremque nobis quas.  
+                            <a href="<?php the_permalink();?>" class="read-more">read more</a>
+                        </div>
+                    </div>
+
+        <div class="see-more">
+                <a href="#">Mais posts</a>
+            </div>
+            
+        </div>
+
+        
+    </section>
+
+
+<!-- WIDGETS - SIDEBAR -->
+
+<hr>
+
+<section class="widget">
+    <div class="widget-box">
+            <div class="widget-true">
+                <h3>widget</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur adipisci architecto dolor aliquam aspernatur illo qui nostrum quam illum sit. Quis quod dolorum itaque! Iste dolores officiis tempore nulla. Ipsam.</p>
+            </div>
+  
+    </div>
+
+</section>
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+        <h1>Avessa</h1>
+        <div class="arrow-up">
+                <img src="<?php echo get_theme_file_uri('/images/footer-arrow.png') ?>" alt="">
+            </div>
+        <div class="menu-desktop-footer">
+                <ul>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="equipe.html">Equipe</a></li>
+                    <li><a href="edicoes.html">Edições</a></li>
+                    <li><a href="edicoes.html">Chamadas</a></li>
+                    <li><a href="sobre.html">Serviços</a></li>
+                    <li><a href="edicoes.html">Blog</a></li>
+                    <li><a href="sobre.html">FAQ</a></li>
+                    <li><a href="equipe.html">Parceiros</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        
+    </footer>
+
+    <script src="main.js"></script>
+  
+</body>
+</html>
+
+
+
+        

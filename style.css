@@ -1,0 +1,161 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Maven Pro', sans-serif;    
+}
+
+/* header */
+
+.header {
+    width:100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .header-text {
+    text-align: center;
+}
+
+.header h1 {
+    text-transform: uppercase;
+    font-size:3rem;
+    font-weight: normal;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.header .header-text h2 {
+    font-weight: normal;
+}
+
+.header .header-text i {
+    margin-top:20px;
+    color:black;
+}
+
+/* skills */
+
+.skills {
+    width:70%;
+    margin: 0 auto;
+    height:100px;
+    display:flex;
+    align-self: center;
+    justify-content: space-evenly;
+}
+
+.skills i {
+    font-size:4rem;
+}
+
+/* explanation */
+
+.explanation {
+    width:70%;
+    margin:0 auto;
+    text-align:center;
+}
+
+.portfolio {
+    width:80%;
+    margin: 0 auto;
+    margin-top:200px;
+}
+
+.portfolio .portfolio-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom:150px;
+}
+
+.portfolio .portfolio-box .img-box {
+    width:100%;
+    height:100%;
+    object-fit: fill;
+}
+
+.portfolio .portfolio-box .img-box img{
+    width:100%;
+    height:100%;
+}
+
+.portfolio .portfolio-box .text-box {
+    justify-self:center;
+    padding-right:40px;
+    padding-left:40px;
+}
+
+.portfolio .portfolio-box .text-box h3 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-family: 'Quicksand', sans-serif;
+    font-size:1.5rem;
+}
+
+.portfolio .portfolio-box .text-box span {
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.portfolio .portfolio-box .text-box p {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.portfolio .portfolio-box .text-box a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding:10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+/* contato */
+
+.contato {
+    width:80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contato h3 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-family: 'Quicksand', sans-serif;
+    font-size:1.5rem;
+    margin-bottom:30px;
+}
+
+.contato i {
+    font-size:2rem;
+    color: black;
+}
+
+.contato h4 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size:2rem;
+}
+
+/* footer */
+
+footer {
+    width:100%;
+    text-align: center;
+    margin-top:100px;
+    background-color:gray;
+    text-transform: uppercase;
+    line-height: 70px;
+}
